@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  color: rgb(255, 255, 255);
+  background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+  
+}
+h1{
+  margin:20px;
+
+}
+label{
+  margin: 10px;
+  margin-left: 20px;
+}
+button{
+  margin: 5px;
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 4px 12px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover{
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+input{
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  padding: 3px;
+}
+input:focus{ 
+  outline: none;
+}
+select{
+  padding: 3px;
+  border-radius: 5px;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+}
+option{
+  padding: 3px;
+}
+select {
+  margin: 10px;
+}
+select:focus{
+outline: none;
+
+}
+.Normal{
+  background: linear-gradient(to right,rgb(39, 85, 170),cornflowerblue);
+color: wheat;
+}
+.Club{
+  background: linear-gradient(to right,crimson,violet);
+  color: aquamarine;
+}
+.College{
+  background: linear-gradient(to right,rgb(104, 104, 104),rgb(155, 155, 155));
+  
+  color: white;
+}
+table{
+  margin: 15px;
+}
+td{
+  margin-left:8px;
+  margin-right: 8px;
+}
+.ttask{
+  text-align: center;
+}
+.container1{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media (max-width:800px) {
+  .container1{
+    display: grid;
+    grid: 1fr 1fr / 1fr /1fr
+  }
+}
